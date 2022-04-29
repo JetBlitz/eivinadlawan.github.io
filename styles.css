@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    border: 0%;
 
     /* flex-wrap: wrap;
     justify-content: space-around; */
@@ -23,7 +24,7 @@ nav {
 }
 
 li {
-    margin: 15px 5px
+    margin: 15px 5px;
 }
 
 .logo {
