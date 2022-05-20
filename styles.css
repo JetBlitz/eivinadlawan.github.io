@@ -33,14 +33,26 @@ li {
 }
 section {
     width: 100%;
-    height: 100px;
-    background-image: repeating-linear-gradient(red, yellow);
-    /* background-color: #234def; */
-
+    /* background-image: repeating-linear-gradient(red, yellow); */
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.about-me {
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.second {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin: 5px;
 }
 
 #main {
@@ -52,6 +64,7 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border: 0%;
 }
 
 .hero-info {
@@ -60,6 +73,13 @@ section {
     max-width: 300px;
 }
 
+.styled-break {
+    width: 300px;
+    height: 5px;
+    background-color: #a17df4;
+    border-radius: 2.5px;
+    margin: 30px 0 30px 0;
+}
 .avatar {
     width: 100px;
     border-radius: 50px;
