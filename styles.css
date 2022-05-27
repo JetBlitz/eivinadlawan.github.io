@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
-    border: 0%;
+    background-color: whitesmoke;
 
     /* flex-wrap: wrap;
     justify-content: space-around; */
@@ -33,38 +33,42 @@ li {
 }
 section {
     width: 100%;
-    /* background-image: repeating-linear-gradient(red, yellow); */
     background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 40px 0 0 0;
 }
 
 .about-me {
     width: 300px;
-    height: 250px;
-    background-color: blue;
     margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
-.second {
+.info {
+    max-width: 300px;
+    margin: 30px;
+}
+
+/* .second {
     width: 300px;
     height: 300px;
     background-color: blue;
     margin: 5px;
-}
+} */
 
 #main {
     box-shadow: 2px 2px 5px grey;
 }
 .hero {
     width: 100%;
-    background-color: rgb(177, 69, 21, 0.8);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 0%;
 }
 
 .hero-info {
